@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root{
+  --font-color: black;
+  --highlight-color: #00a5ce;
+  --secondary-color: #868f95;
+  --header-bg-color: #B8E6F1;
+  --footer-bg-color: #BFC0C3;
+  --table-img-bg-color: #BFC0C3;
+  --gap-size: 15px;
+}
+
+@page{
+  size:A4;
+  margin:4cm 0 3cm 0;
+  @top-left{
+    content:element(header);
+  }
+  @bottom-left{
+    content:element(footer);
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  padding:1cm 2cm;
+  color:var(--font-color);
+  font-family:'Montserrat', sans-serif;
+  font-size:20px;
+}
+
+a{
+  color:inherit;
+  text-decoration:none;
+}
+
+hr{
+  margin: 0.8cm 0;
+  height:0;
+  border:0;
+  border-top:1mm solid var(--highlight-color);
+}
+
+
+header{
+  height:8cm;
+  padding:0 5cm;
+  position:running(header);
+  background-image:url('Header-docs.png');
+  background-size: cover; /* Ajusta la imagen para cubrir el área */
+}
+
+.w100{
+  width: 100%;
+}
+
+.w66{
+  width:66%;
+}
+
+.w50{
+  width:50%;
+}
+
+.w33{
+  width:33%;
+}
+
+.centerDocument{
+ display: flex;
+justify-content: center;
+}
+.containerPdf{
+  width: 80%;
+}
+.date{
+  text-align: end;
+  margin-bottom: 50px;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+}
+.name .nameP{
+  margin: 0;
+  padding: 0;
+}
+
+.dear{
+  margin-top: 50PX;
+  margin-bottom: 30px;
+}
+.remuneracion{
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.salary{
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.salary1{
+  padding-left: 50px;
+ 
+}
+.tableBene{
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #0c0c0c;
+}
+.tableBene th, .tableBene td {
+  padding: 8px;
+  text-align: left;
+  width: 50%;
+}
+.tableBene td{
+  padding-left: 50px;
+}
+.tabla_beneficios{
+  display: flex;
+  justify-content: center;
+}
+.border{
+  border-left: 2px solid #0c0c0c;
+}
+
+.longtext{
+  margin-top: 40px;
+}
+
+.firma{
+  margin-top: 150px;
+  margin-bottom: 150px;
+ display: flex;
+ justify-content: space-around;
+ flex-direction: row;
+}
+
+.borderFr{
+  text-align: center;
+  width: 30%;
+  border-top:  3px solid #0c0c0c;
+}
+
+footer{
+  height:1cm;
+  padding:0 5cm;
+  background-color: rgb(219, 212, 9);
+  background-size: cover; 
+}
