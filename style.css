@@ -111,7 +111,7 @@ justify-content: center;
 }
 
 .firma{
-  margin-top: 60px;
+  margin-top: 70px;
   margin-bottom: 90px;
  display: flex;
  justify-content: space-around;
@@ -125,7 +125,7 @@ justify-content: center;
 }
 
 footer{
-  height:0.5cm;
+  height:0.8cm;
   padding:0 5cm;
   background-color: rgb(219, 212, 9);
   background-size: cover; 
