@@ -70,7 +70,7 @@ justify-content: center;
 
 .remuneracion{
   margin-bottom: 0;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 .salary{
   display: flex;
@@ -92,7 +92,7 @@ justify-content: center;
   width: 50%;
   font-family:'Roboto', sans-serif;
   font-size:14px;
-  line-height: 15px;
+  line-height: 10px;
 }
 .tableBene td{
   padding-left: 30px;
@@ -125,7 +125,7 @@ justify-content: center;
 }
 
 footer{
-  height:1cm;
+  height:0.5cm;
   padding:0 5cm;
   background-color: rgb(219, 212, 9);
   background-size: cover; 
