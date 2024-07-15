@@ -29,7 +29,7 @@ body{
   padding:0;
   color:var(--font-color);
   font-family:'Roboto', sans-serif;
-  font-size:14px;
+  font-size:15px;
   line-height: 20px;
 }
 
@@ -52,7 +52,7 @@ justify-content: center;
 }
 .date{
   text-align: end;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .name{
   display: flex;
@@ -91,7 +91,7 @@ justify-content: center;
   text-align: left;
   width: 50%;
   font-family:'Roboto', sans-serif;
-  font-size:14px;
+  font-size:15px;
   line-height: 10px;
 }
 .tableBene td{
