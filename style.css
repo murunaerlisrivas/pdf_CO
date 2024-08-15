@@ -111,8 +111,7 @@ justify-content: center;
 }
 
 .firma{
-  margin-top: 70px;
-  margin-bottom: 85px;
+margin-bottom: 65px;
  display: flex;
  justify-content: space-around;
  flex-direction: row;
@@ -120,7 +119,6 @@ justify-content: center;
 
 .borderFr{
   text-align: center;
-  width: 30%;
   border-top:  3px solid #0c0c0c;
 }
 
@@ -133,4 +131,17 @@ footer{
 
 .congratulations{
   text-align: justify;
+}
+.firmaimg{
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
+.divfirma{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 30%;
 }
